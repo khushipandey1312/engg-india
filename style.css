@@ -102,9 +102,9 @@ header .fa-bars{
     text-align: center;
 }
 .home .contents h1{
-  font-size:5rem;
+  font-size:6rem;
   color:#fff;
-  padding:0 1rem;
+  padding:0 5rem;
   text-shadow: 0 .3rem .5rem rgba(0,0,0,.3);  
   text-transform: capitalize;
 } 
@@ -114,6 +114,7 @@ header .fa-bars{
     padding:1rem 25rem;
 }*/
 .home .contents button{
+
     height:4rem;
     width:20rem;
     border-radius: 5rem;
@@ -135,8 +136,8 @@ header .fa-bars{
     flex-wrap: wrap;
 }
 .home .box-container .box{
-    height:30rem;
-    width:40rem;
+    height:35rem;
+    width:45rem;
     padding:1rem;
     background: #fff;
     text-align: center;
@@ -212,6 +213,19 @@ header .fa-bars{
     color:#999;
     padding:1rem 0;
 }
+.about .row .content h2{
+    font-size:1.6rem;
+    color:#5c5a5a;
+    padding:1rem 0;
+}
+.about .row .content li a{
+    font-size:1.6rem;
+    color:var(--pink);
+    padding:1rem 0 ;
+}
+.about .row .content ul li a:hover{
+    color:var(--violet);
+}
 .event{
     background: #f9f9f9;
 }
@@ -243,6 +257,7 @@ padding: 5rem 0;
 .event .card-container .card p{
     font-size: 1.7rem;
     color:#666;
+   
 }
 .join{
   background:#333;
@@ -374,6 +389,9 @@ header .fa-times{
         width:90vw;
     }
     .about .row .content p{
+        padding:0 2.5rem;
+    }
+    .about .row .content h3 a{
         padding:0 2.5rem;
     }
     .join .row{
